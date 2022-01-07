@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+	\begin{flushright}
+		% Comment out this figure block if you don't want a photo
+		\begin{center}\includegraphics[width=0.8\columnwidth]{photo.jpg}\\[\baselineskip]\end{center} % Your photo
+		\small % Smaller font size
+		\textbf{José M. Rodriguez}\\ % Your name
+		\color{cyan}e-mail:\\\url{jrodriguezflores3@ucmerced.edu} \\ % Your email address
+		P: (209) 631 2159 \\ % Your phone number
+		\Sep % Some whitespace
+		\color{black}\textbf{Address} \\
+		\color{cyan}226 W 23rd street\\ % Address 1
+		Merced, CA 95340 \\ % Address 2
+		USA \\ \vspace{0.5 in}\color{black}\textbf{Twitter}\color{cyan}\\\url{ @joss__rodriguez}% Address 3
+		\vfill % Whitespace under this block to push it up under the photo
+	\end{flushright}
+}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{José Manuel Rodríguez Flores} % Large heading - your name
+
+\cvsubheading{Ph.D Student Environmental Systems} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{Agricultural Economist and Ph.D Student at University of California Merced in the Environmental Systems program. Specialist in water economics and coupled hydro-economic models development. Currently working on the agricultural-water system adaptation to climate change and groundwater management policies in California, US.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{2011 - 2015, Universidad Autónoma Chapingo, México}{B.S. in Economics.}
+
+%------------------------------------------------
+
+\CVItem{2016 - 2018, Colegio de Postgraduados, México}{M.S. in Economics.}
+
+%-----------------------------------------------
+\CVItem{2019 - present, University of California, Merced}{Ph.D. in Environmental Systems.}
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{February-April, 2015. \textit{Research Internship}} {Oklahoma State University, School of Business.}
+
+Detailed achievements:
+\begin{itemize}
+	\item Project: \textit{Social Responsible Companies and consumer's decisions.}
+	\item Courses on: 
+	\begin{itemize}
+		\item Big Data
+		\item Corporate Social Responsibility
+	\end{itemize}
+\end{itemize}
+
+\vspace{0.2 cm}
+
+\CVItem{May-July, 2018. \textit{Research Internship}} {University of California, Merced.}
+
+Project: Insights from a Calibrated Optimization Model for Irrigated Agriculture under Drought in an Irrigation District on the Central Mexican High Plains. Research internship with Professor Dr. Josué Medellín-Azuara\\
+
+
+\CVItem{2019 - present, \textit{Graduate Student Researcher}}{University of California, Merced.}
+
+Projects:
+	\begin{itemize}
+		\item Hydro-economic analysis of the Sustainable Groundwater Management Act in Kern County, California, 
+		\item Agricultural Production Model of the Sacramento-San Joaquin Delta.
+	\end{itemize}
+
+Tasks: 
+
+
+\begin{itemize}
+	\item Modeling development using Python.
+	\item Economic analysis of agriculture and water policy.
+\end{itemize}
+
+%------------------------------------------------
+
+%\CVItem{Jan 2008 - Oct 2012, \textit{Computer Repair Specialist}, Buy More}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Publications}
+
+%------------------------------------------------
+
+\CVItem{2019, \textit{Peer-reviewed Journal Article}}{Rodríguez-Flores, J.M.; Medellín-Azuara, J.; Valdivia-Alcalá, R.; Arana-Coronado, O.A.; García-Sánchez, R.C. Insights from a Calibrated Optimization Model for Irrigated Agriculture under Drought in an Irrigation District on the Central Mexican High Plains. Water 2019, 11, 858.}
+
+\clearpage % Start a new page
+\userinformation % Print your information in the left column
+\framebreak % End of the first column
+
+\CVSection{Selected Conferences}
+
+\CVItem{2020, \textit{Conference Poster and Abstract}}{Jose M Rodriguez Flores, Spencer Cole, Jorge A Alberto Valero Fandino, Keyvan Malek, Tina Karimi, Harrison Bray Zeff, Alvar Escriva-Bou, Josue Medellin-Azuara, Global Sensitivity Analysis for a coupled Hydro-economic model under a groundwater management policy in Kern County, California. AGU Fall Meeting 2020, 2020.}
+
+%------------------------------------------------
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+
+
+
+\CVSection{Software Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Matlab &  \bluebullet R & \bluebullet Python\\
+\bluebullet GAMS &  \bluebullet Stata &  \bluebullet LaTex
+\end{tabular}}
+
+
+\CVSection{Awards}
+
+%------------------------------------------------
+
+\CVItem{2015, \textit{Graduated with honors.}}{Universidad Autonoma Chapingo,Bachelors degree.}
+
+\CVItem{2016-2018, \textit{Graduate Scholarship for excellence}}{National Science and Technology Council of México.}
+
+\CVItem{2019-present, \textit{Graduate Scholarship for Ph.D studies}}{UC-Mexus-National Science and Technology Council of México}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Hydro-economic modeling,  water policies, agricultural economics, water governance}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Yoga, running, nature and art enthusiast.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
